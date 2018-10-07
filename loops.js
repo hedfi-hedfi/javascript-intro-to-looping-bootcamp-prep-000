@@ -14,9 +14,9 @@ function whileLoop(n) {
 }
 
 function incrementVarialbe(){ i += 1;}
-
+var i = 0;
 function doWhileLoop(array) {
-  var i = 0;
+  
   
   do{
     array.pop();
