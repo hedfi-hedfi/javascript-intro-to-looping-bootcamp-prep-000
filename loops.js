@@ -13,9 +13,11 @@ function whileLoop(n) {
   return 'done'
 }
 
+function incrementVarialbe(){ i += 1;}
+
 function doWhileLoop(array) {
   var i = 0;
-  function incrementVarialbe(){ i += 1;}
+  
   do{
     array.pop();
   }while(array.length > 0 && incrementVarialbe())
