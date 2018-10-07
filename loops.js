@@ -8,8 +8,16 @@ function forLoop(array) {
 
 function whileLoop(n) {
   while(n >0) {
-  console.log(--n);
+    console.log(--n);
   }
   return 'done'
+}
+
+function doWhileLoop(array) {
+  var i = 0;
+  function incrementVarialbe(){ i += 1;}
+  do{
+    array.pop();
+  }while(array.length > 0 && incrementVarialbe())
   
 }
